@@ -90,16 +90,16 @@ https://developers.nonghyup.com/InquireCreditCardAuthorizationHistory.nh
         "Trtm": "003544",
         "Rsms": "정상처리 되었습니다.",
         "ApiNm": "InquireDepositorAccountNumber",
-        "IsTuno": "201911290000000001",
-        "Tsymd": "20191129",
+        "IsTuno": "202511010000000001",
+        "Tsymd": "25101101",
         "FintechApsno": "001",
-        "Iscd": "000019",
+        "Iscd": "003297",
         "Rpcd": "00000",
         "ApiSvcCd": "DrawingTransferA"
     },
     "Bncd": "011",
-    "Dpnm": "홍길동",
-    "Acno": "3020000000109"
+    "Dpnm": "장두순",
+    "Acno": "3020000014335"
 }
 ```
 ### 3.1.4 예금주조회 Response Element
@@ -113,16 +113,7 @@ https://developers.nonghyup.com/InquireCreditCardAuthorizationHistory.nh
 ### 3.2.1 타행예금주조회 Request example
 ```json
 {
-    "Header":{
-        "ApiNm":"InquireDepositorOtherBank",
-        "Tsymd":"20191129",
-        "Trtm":"003544",
-        "Iscd":"000019",
-        "FintechApsno":"001",
-        "ApiSvcCd":"DrawingTransferA",
-        "IsTuno":"201911290000000001",
-        "AccessToken":
-        "791c18f7377be31c8b30b27eba8573de0aac529890c7b18ac722f6120adc5054"
+    "6c52120f58e13fd033fd2f3f50b29765197f4877b26e376351c438ff5f125282"
         },
     "Bncd":"002",
     "Acno":"1000000028002"
@@ -189,10 +180,10 @@ https://developers.nonghyup.com/InquireCreditCardAuthorizationHistory.nh
         "Trtm": "112428",
         "Rsms": "정상처리 되었습니다.",
         "ApiNm": "InquireBalance",
-        "IsTuno": "1233424",
-        "Tsymd": "20191212",
+        "IsTuno": "20251101",
+        "Tsymd": "251101",
         "FintechApsno": "001",
-        "Iscd": "000013",
+        "Iscd": "003297",
         "Rpcd": "00000",
         "ApiSvcCd": "ReceivedTransferA"
     },
